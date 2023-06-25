@@ -1,12 +1,5 @@
-# 🏗️ Boilerplate for Nuxt, Tailwind & NetlifyCMS
+![image](https://github.com/LiNePasha/nuxt-creative-jamstack/assets/67336269/b40b7bd6-6249-4cd4-a7bb-c5e36b9dc0d6)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cb2d4cc5-8a65-4940-81ce-4456ff96e6db/deploy-status)](https://app.netlify.com/sites/ntn-boilerplate/deploys) ← replace with [your own](https://app.netlify.com/sites/YOUR_NETLIFY_SITE_SLUG/settings/general#deploy-status-badge)
-
-**[Live Demo](https://ntn-boilerplate.netlify.app/)**
-
-An opinionated starter template for a quick start with the following technologies up on a site after only 5 minutes!
-
-![ntn-boilerplate-preview-dark](https://user-images.githubusercontent.com/770560/109560601-5dcc5c80-7adc-11eb-9eb8-98663294b6aa.png)
 
 ## 🔋 Batteries included
 
