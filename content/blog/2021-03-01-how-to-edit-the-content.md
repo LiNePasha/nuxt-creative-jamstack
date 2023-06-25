@@ -1,28 +1,44 @@
 ---
 createdAt: 2021-03-01
-title: How to edit the content
-description: And what to expect when running a repo-based CMS
+title: Add PWA In Nuxt JS
+description: Add PWA In Nuxt JS - Ahmed Waleed senior frontend developer
 ---
+## Installation
 
-It is easy to write **markdown**-*enabled* content like this placeholder text, with support for images and even code snippets.
+Add `@nuxtjs/pwa` dependency to your project:
 
-If you are in local development-mode (`npm run dev`) you can double-click here to edit and save this page quickly.
+```javascript
+// With Yarn
+yarn add --dev @nuxtjs/pwa
 
+// With NPM
+npm i --save-dev @nuxtjs/pwa
+```
 
-```js{1,4}[posts.vue]
-formatDate(dateString) {
-  const date = new Date(dateString)
-  return date.toLocaleDateString(process.env.lang) || ''
+Edit your `nuxt.config.js` file to add pwa module::
+
+```javascript
+// nuxt.config.js
+{
+  buildModules: [
+    '@nuxtjs/pwa',
+  ]
 }
 ```
 
-![Placeholder Kitten](https://placekitten.com/800/400)
+**NOTE:** If using `ssr: false` with production mode without `nuxt generate`, you have to use `modules` instead of `buildModules`
 
-### Steps to take:
-1. **Go to admin:** You can navigate to the admin-page by typing in `/admin` after the URL your browser’s omnibox above.
+## Configuration
 
-2. **Navigate to Blog:** In blog you can edit existing blog posts like this one, remove it, or create new ones. They’ll be added to a pull request by Netlify CMS that you merge in the next step by saving.
+```javascript
+// nuxt.config.js
+{
+  pwa: {
+    icon: false // disables the icon module
+  }
+}
+```
 
-3. **Save your changes:** After you have edited the content on the site, you need to save. This will trigger Netlify CMS to merge the PR to the main branch (it will show up in your git log).
+## \-﻿ Useful Links -
 
-4. **Grab a coffee:** After saving, you have to wait for Netlify to build your main branch (which probably takes 2-5 minutes, depending on your setup). If you’re a control-freak, login to Netlify to watch your build run and see when it is published. You can also publish older commits from there."
+### <https://pwa.nuxtjs.org/>
