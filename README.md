@@ -1,46 +1,6 @@
 ![image](https://github.com/LiNePasha/nuxt-creative-jamstack/assets/67336269/b40b7bd6-6249-4cd4-a7bb-c5e36b9dc0d6)
 
-
-## 🔋 Batteries included
-
-- Nuxt.js (in "universal mode", where both SEO and speed is great)
-- Vue 2
-- Vuex (supported by adding to `/store`, but not implemented)
-- PostCSS (no SCSS)
-- Tailwind
-- PurgeCSS (removes unused CSS-selectors)
-- Dark mode & ColorModePicker (Set to "dark mode first")
-- PWA (install website as standalone app)
-- Netlify CMS (no need for a separate server)
-- Prettier
-- Nuxt-content (w/ exensible support for markdown and code-blocks)
-
-##### Optional extra setup
-- Git LFS (store uploaded images outside the main repo)
-- Netlify LM (Netlify’s Git LFS support)
-
 ## 🎉 Getting Started
-
-Use the deploy button to get your own copy of the repository.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Knogobert/ntn-boilerplate&stack=cms)
-
-This will setup everything needed for running the CMS:
- - A new repository in your GitHub account with the code
- - Full Continuous Deployment to Netlify's global CDN network
- - Control users and access with Netlify Identity
- - Manage content with Netlify CMS and Nuxt-content
-
-Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite. Start with by registering a regular email-account (not OAuth yet!) with a [generated password](https://passwordwolf.com/).
-
-You should be up and running, ready for personalization!
-
-### These extra steps are only necessary if you want to upload large media in Netlify CMS:
-This way it doesn't clutter up your repo with large unmanageable files. But *do know* that it is easier to add later than undoing it later.
-
-1. **[Install git-lfs](https://git-lfs.github.com/)** on your computer and remove the `#` in the project's `.gitattributes`
-
-2. **Setup Netlify LM** by following [these steps](https://docs.netlify.com/large-media/setup/). (In short: `netlify plugins:install netlify-lm-plugin` → `netlify lm:install` → `netlify login` → `netlify link` → `netlify lm:setup` → commit the `.lfsconfig` file.)
 
 ---
 
