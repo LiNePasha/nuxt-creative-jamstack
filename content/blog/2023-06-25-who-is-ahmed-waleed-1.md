@@ -1,7 +1,7 @@
 ---
 createdAt: 2023-06-25
 title: Who is Ahmed Waleed
-description: About Ahmed Waleed Senior Frontend Developer JavaScript
+description: About Ahmed Waleed Frontend Developer JavaScript
 ---
 C﻿reative Frontend Developer
 
